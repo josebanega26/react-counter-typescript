@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
+
 interface CounterProps {
   value: number;
 }
 const Counter = ({ value }: CounterProps) => {
   return (
     <>
-      <h1> Counter</h1>
+      <h1> Counter with Typescript</h1>
       <h2>{value}</h2>
     </>
   );
